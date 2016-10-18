@@ -1,1 +1,11 @@
 Primer commit
+
+cd src/git
+git clone https://github.com/track3rsp/notas.git
+touch notas.txt
+nano -w notas.txt
+git add .
+git commit -b "Primer commit"
+git push
+
+git pull
